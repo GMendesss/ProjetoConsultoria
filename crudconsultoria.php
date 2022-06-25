@@ -161,8 +161,8 @@ switch($acao){
         break;
 
     case 'deletar':
-        
-        $sql = "DELETE e, d, p FROM Empregado e INNER JOIN Projeto AS p ON e.idEmpregado = p.idProjeto INNER JOIN Departamento AS d ON e.idEmpregado = d.idDepto WHERE idEmpregado = '" . $idEmpregado . "'";
+        $id = $_GET['idEmpregado'];
+        $sql = "DELETE e, d, p FROM Empregado e INNER JOIN Projeto AS p ON e.idEmpregado = p.idProjeto INNER JOIN Departamento AS d ON e.idEmpregado = d.idDepto WHERE idEmpregado = '" . $id . "'";
         
         if(!mysqli_query($conn,$sql))
     {
