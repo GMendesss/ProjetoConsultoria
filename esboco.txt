@@ -1,0 +1,19 @@
+				REGISTRO DE PROJETO
+-------------------------------------------------------------------------------------
+				DETALHES DO EMPREGADO
+		Nome Empregado: __________________________
+		Tipo de Empregado: •Gerente  •Funcionário
+
+				DETALHES DO PROJETO
+		Resumo: ___________________________________
+			___________________________________
+			___________________________________
+		Número do projeto: ___
+			
+			      DEPARTAMENTO DO EMPREGADO
+		Número Depto.: ___
+		Nome Depto: _______________________________	
+
+                        ___________    ___________    ________
+			|REGISTRAR|    |CONSULTAR|    |EDITAR|
+	
